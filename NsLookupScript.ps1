@@ -14,7 +14,7 @@ function Get-NsLookupResults {
 }
 
 # Read input file with domain names
-$inputFile = "C:\Path\To\Input\File.txt"
+$inputFile = "C:\Path\To\Input\Input.txt"
 $domains = Get-Content $inputFile
 
 # Output file
